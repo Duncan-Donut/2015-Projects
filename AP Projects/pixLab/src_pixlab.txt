@@ -1,0 +1,12 @@
+C:\Users\Duncan\Desktop\pixLab\classes\ColorChooser.java
+C:\Users\Duncan\Desktop\pixLab\classes\DigitalPicture.java
+C:\Users\Duncan\Desktop\pixLab\classes\FileChooser.java
+C:\Users\Duncan\Desktop\pixLab\classes\ImageDisplay.java
+C:\Users\Duncan\Desktop\pixLab\classes\IntArrayWorker.java
+C:\Users\Duncan\Desktop\pixLab\classes\IntArrayWorkerTester.java
+C:\Users\Duncan\Desktop\pixLab\classes\Picture.java
+C:\Users\Duncan\Desktop\pixLab\classes\PictureExplorer.java
+C:\Users\Duncan\Desktop\pixLab\classes\PictureFrame.java
+C:\Users\Duncan\Desktop\pixLab\classes\PictureTester.java
+C:\Users\Duncan\Desktop\pixLab\classes\Pixel.java
+C:\Users\Duncan\Desktop\pixLab\classes\SimplePicture.java
