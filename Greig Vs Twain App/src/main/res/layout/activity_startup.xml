@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hitchhikingapps.griegvstwain.Startup"
+    android:background="#1d4f63">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:id="@+id/startButton"
+        android:textColor="#1d4f63"
+        android:background="@drawable/chalk"
+        android:width="200dp"
+        android:onClick="startgame"
+        android:nestedScrollingEnabled="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="154dp"
+        android:typeface="serif"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/settings"
+        android:layout_alignTop="@+id/startButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="#FFFFFF"
+        android:width="200dp"
+        android:background="#1d4f63"
+        android:onClick="startsettings"
+        android:nestedScrollingEnabled="false"
+        style="?android:attr/borderlessButtonStyle"
+        android:typeface="serif"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credits"
+        android:id="@+id/Credits"
+        android:textColor="#FFFFFF"
+        android:width="200dp"
+        android:background="#1d4f63"
+        android:layout_below="@+id/settings"
+        android:layout_alignLeft="@+id/settings"
+        android:layout_alignStart="@+id/settings"
+        android:layout_marginTop="15dp"
+        android:onClick="startcredits"
+        style="?android:attr/borderlessButtonStyle"
+        android:typeface="serif"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:background="@drawable/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:id="@+id/Quit"
+        android:onClick="quit"
+        android:background="#1d4f63"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/startButton"
+        android:layout_toStartOf="@+id/startButton"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:typeface="serif"/>
+</RelativeLayout>

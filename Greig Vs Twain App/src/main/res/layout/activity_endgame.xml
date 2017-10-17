@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hitchhikingapps.griegvstwain.Endgame"
+    android:background="#1d4f63">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Again?"
+        android:id="@+id/button"
+        android:onClick="restart"
+        android:background="@drawable/chalk"
+        android:layout_above="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:typeface="serif"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:id="@+id/button1"
+        android:onClick="menu"
+        android:textColor="#FFFFFF"
+        android:background="#1d4f63"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:typeface="serif"
+        style="?android:attr/borderlessButtonStyle"/>
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView4"
+        android:background="@drawable/gameover"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highscore"
+        android:layout_above="@+id/round"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/round"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Grieg Vs Twain</string>
+    <string name="title_activity_startup">Startup</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>
