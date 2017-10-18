@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hitchhikingapps.debugapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="220px"
+        android:layout_height="wrap_content"
+        android:text="@string/Protect"
+        android:id="@+id/Rock"
+        android:layout_alignTop="@+id/Paper"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Shoot"
+        android:id="@+id/Paper"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/Next"
+        android:layout_alignEnd="@+id/Next" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Reload"
+        android:id="@+id/Scissors"
+        android:layout_alignTop="@+id/Paper"
+        android:layout_alignRight="@+id/Hcounter"
+        android:layout_alignEnd="@+id/Hcounter" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/Next"
+        android:layout_alignTop="@+id/Winner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/Machine"
+        android:id="@+id/Machine"
+        android:layout_marginTop="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Winner is..."
+        android:id="@+id/Winner"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="93dp" />
+
+    <RadioButton
+        android:layout_width="220px"
+        android:layout_height="wrap_content"
+        android:text="Quit"
+        android:id="@+id/radioButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/Rock"
+        android:layout_alignRight="@+id/Rock"
+        android:layout_alignEnd="@+id/Rock"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/Acounter"
+        android:layout_alignTop="@+id/radioButton"
+        android:layout_toRightOf="@+id/Next"
+        android:layout_toEndOf="@+id/Next" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/Hcounter"
+        android:layout_alignTop="@+id/Acounter"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

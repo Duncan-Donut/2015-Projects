@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RPS</string>
+    <string name="action_settings">Settings</string>
+    <string name="FirstText">Hello</string>
+    <string name="Reload">Scissors</string>
+    <string name="Shoot">Paper</string>
+    <string name="Protect">Rock</string>
+    <string name="Machine"></string>
+</resources>

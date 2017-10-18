@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TheSuggestionBox</string>
+    <string name="title_activity_suggestion">Suggestion</string>
+    <string name="title_activity_department">Department</string>
+    <string name="title_activity_fixed">Fixed</string>
+    <string name="title_activity_sent">Sent</string>
+</resources>
